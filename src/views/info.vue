@@ -32,6 +32,17 @@
             </div>
             <!-- 专业技能 -->
             <my-divider>专业技能</my-divider>
+            <ul>
+                <li>熟练掌握 HTML5 和 CSS3 的使用,可以根据设计稿还原页面布局，实现响应式布局</li>
+                <li>熟悉原生的 JavaScript 基本语法，可以对 DOM,BOM 进行操作</li>
+                <li>熟练使用 JQuery 库，Bootstrap，element-ui 框架</li>
+                <li>熟练掌握 ajax，axios 与后台数据进行交互</li>
+                <li>了解 ES6 新语法和新特性，熟悉 Promise 对象</li>
+                <li>掌握 VUE 全家桶，可以利用 vue-router 进行单页面应用开发，通过 vuex 来进行状态管理</li>
+                <li>熟悉小程序原生开发，对 uni-app 有一定的了解</li>
+                <li>了解 node.js，可以对数据库进行增删改查操作</li>
+                <li>熟悉使用 git 来对代码进管理</li>
+            </ul>
         </el-card>
     </div>
 </template>
@@ -65,6 +76,10 @@ export default {
         font-size: 20px;
         margin-bottom: 20px;
         font-family: "Microsoft YaHei";
+    }
+    li {
+        line-height: 30px;
+        height: 30px;
     }
 }
 </style>

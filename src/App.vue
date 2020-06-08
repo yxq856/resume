@@ -2,7 +2,7 @@
   <el-container class="container-home">
     <el-aside class="my-aside" width="200px">
         <el-menu
-          default-active="/"
+          :default-active="$route.path"
           background-color="#545c64"
           text-color="#fff"
           active-text-color="#ffd04b"
